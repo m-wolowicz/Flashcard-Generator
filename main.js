@@ -5,10 +5,6 @@ var inquirer = require("inquirer");
 var BasicCard = require("./BasicCard.js");
 var ClozeCard = require("./ClozeCard.js");
 
-var qOneBasic = new BasicCard("What is Liz's Last Name?", "Lemon");
-
-var qOneCloze = new ClozeCard("Liz's lastname is Lemon", "Lemon");
-
 //Begin the Flashcard Generator
 console.log("Welcome to the Flashcard Generator");
 
